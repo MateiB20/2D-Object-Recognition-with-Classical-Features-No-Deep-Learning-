@@ -1,1 +1,1 @@
-# 2D-Object-Recognition-with-Classical-Features-No-Deep-Learning-
+2D Object Recognition with Classical Features (No Deep Learning)

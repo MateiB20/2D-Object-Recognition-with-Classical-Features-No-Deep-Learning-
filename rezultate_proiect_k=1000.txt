@@ -1,0 +1,224 @@
+
+Model: KNN, k=1000, Split: 0.9/0.1
+              precision    recall  f1-score   support
+
+        book      0.000     0.000     0.000         3
+      bottle      0.200     0.333     0.250         3
+    keyboard      1.000     0.500     0.667         2
+         mug      0.333     0.500     0.400         2
+       phone      0.000     0.000     0.000         3
+
+    accuracy                          0.231        13
+   macro avg      0.307     0.267     0.263        13
+weighted avg      0.251     0.231     0.222        13
+----------------------------------------
+
+Model: SVM, k=1000, Split: 0.9/0.1
+              precision    recall  f1-score   support
+
+        book      0.333     0.333     0.333         3
+      bottle      0.250     0.333     0.286         3
+    keyboard      0.667     1.000     0.800         2
+         mug      0.500     0.500     0.500         2
+       phone      0.000     0.000     0.000         3
+
+    accuracy                          0.385        13
+   macro avg      0.350     0.433     0.384        13
+weighted avg      0.314     0.385     0.343        13
+----------------------------------------
+
+Model: KNN, k=1000, Split: 0.8/0.2
+              precision    recall  f1-score   support
+
+        book      0.231     0.600     0.333         5
+      bottle      0.167     0.200     0.182         5
+    keyboard      0.000     0.000     0.000         5
+         mug      0.000     0.000     0.000         5
+       phone      0.200     0.200     0.200         5
+
+    accuracy                          0.200        25
+   macro avg      0.119     0.200     0.143        25
+weighted avg      0.119     0.200     0.143        25
+----------------------------------------
+
+Model: SVM, k=1000, Split: 0.8/0.2
+              precision    recall  f1-score   support
+
+        book      0.429     0.600     0.500         5
+      bottle      0.250     0.400     0.308         5
+    keyboard      1.000     0.200     0.333         5
+         mug      0.200     0.200     0.200         5
+       phone      0.250     0.200     0.222         5
+
+    accuracy                          0.320        25
+   macro avg      0.426     0.320     0.313        25
+weighted avg      0.426     0.320     0.313        25
+----------------------------------------
+
+Model: KNN, k=1000, Split: 0.7/0.3
+              precision    recall  f1-score   support
+
+        book      0.600     0.429     0.500         7
+      bottle      0.333     0.750     0.462         8
+    keyboard      1.000     0.500     0.667         8
+         mug      0.333     0.429     0.375         7
+       phone      1.000     0.250     0.400         8
+
+    accuracy                          0.474        38
+   macro avg      0.653     0.471     0.481        38
+weighted avg      0.663     0.474     0.483        38
+----------------------------------------
+
+Model: SVM, k=1000, Split: 0.7/0.3
+              precision    recall  f1-score   support
+
+        book      0.385     0.714     0.500         7
+      bottle      0.167     0.125     0.143         8
+    keyboard      1.000     0.875     0.933         8
+         mug      0.429     0.429     0.429         7
+       phone      1.000     0.625     0.769         8
+
+    accuracy                          0.553        38
+   macro avg      0.596     0.554     0.555        38
+weighted avg      0.606     0.553     0.560        38
+----------------------------------------
+
+Model: KNN, k=1000, Split: 0.5/0.5
+              precision    recall  f1-score   support
+
+        book      0.167     0.167     0.167        12
+      bottle      0.231     0.250     0.240        12
+    keyboard      0.750     0.462     0.571        13
+         mug      0.286     0.615     0.390        13
+       phone      0.000     0.000     0.000        13
+
+    accuracy                          0.302        63
+   macro avg      0.287     0.299     0.274        63
+weighted avg      0.289     0.302     0.276        63
+----------------------------------------
+
+Model: SVM, k=1000, Split: 0.5/0.5
+              precision    recall  f1-score   support
+
+        book      0.312     0.417     0.357        12
+      bottle      0.364     0.333     0.348        12
+    keyboard      0.786     0.846     0.815        13
+         mug      0.333     0.231     0.273        13
+       phone      0.462     0.462     0.462        13
+
+    accuracy                          0.460        63
+   macro avg      0.451     0.458     0.451        63
+weighted avg      0.455     0.460     0.454        63
+----------------------------------------
+
+Model: KNN, k=1000, Split: 0.9/0.1
+              precision    recall  f1-score   support
+
+        book      0.200     0.333     0.250         3
+      bottle      0.000     0.000     0.000         2
+    keyboard      1.000     0.333     0.500         3
+         mug      0.250     0.333     0.286         3
+       phone      0.000     0.000     0.000         2
+
+    accuracy                          0.231        13
+   macro avg      0.290     0.200     0.207        13
+weighted avg      0.335     0.231     0.239        13
+----------------------------------------
+
+Model: SVM, k=1000, Split: 0.9/0.1
+              precision    recall  f1-score   support
+
+        book      0.400     0.667     0.500         3
+      bottle      0.500     0.500     0.500         2
+    keyboard      1.000     1.000     1.000         3
+         mug      1.000     0.333     0.500         3
+       phone      0.500     0.500     0.500         2
+
+    accuracy                          0.615        13
+   macro avg      0.680     0.600     0.600        13
+weighted avg      0.708     0.615     0.615        13
+----------------------------------------
+
+Model: KNN, k=1000, Split: 0.8/0.2
+              precision    recall  f1-score   support
+
+        book      0.000     0.000     0.000         5
+      bottle      0.143     0.200     0.167         5
+    keyboard      1.000     0.400     0.571         5
+         mug      0.125     0.200     0.154         5
+       phone      1.000     0.200     0.333         5
+
+    accuracy                          0.200        25
+   macro avg      0.454     0.200     0.245        25
+weighted avg      0.454     0.200     0.245        25
+----------------------------------------
+
+Model: SVM, k=1000, Split: 0.8/0.2
+              precision    recall  f1-score   support
+
+        book      0.000     0.000     0.000         5
+      bottle      0.364     0.800     0.500         5
+    keyboard      1.000     0.800     0.889         5
+         mug      0.500     0.400     0.444         5
+       phone      0.500     0.400     0.444         5
+
+    accuracy                          0.480        25
+   macro avg      0.473     0.480     0.456        25
+weighted avg      0.473     0.480     0.456        25
+----------------------------------------
+
+Model: KNN, k=1000, Split: 0.7/0.3
+              precision    recall  f1-score   support
+
+        book      0.000     0.000     0.000         8
+      bottle      0.286     0.571     0.381         7
+    keyboard      0.750     0.375     0.500         8
+         mug      0.091     0.125     0.105         8
+       phone      0.750     0.429     0.545         7
+
+    accuracy                          0.289        38
+   macro avg      0.375     0.300     0.306        38
+weighted avg      0.368     0.289     0.298        38
+----------------------------------------
+
+Model: SVM, k=1000, Split: 0.7/0.3
+              precision    recall  f1-score   support
+
+        book      0.250     0.375     0.300         8
+      bottle      0.286     0.286     0.286         7
+    keyboard      1.000     0.500     0.667         8
+         mug      0.500     0.375     0.429         8
+       phone      0.333     0.429     0.375         7
+
+    accuracy                          0.395        38
+   macro avg      0.474     0.393     0.411        38
+weighted avg      0.482     0.395     0.415        38
+----------------------------------------
+
+Model: KNN, k=1000, Split: 0.5/0.5
+              precision    recall  f1-score   support
+
+        book      0.235     0.333     0.276        12
+      bottle      0.333     0.538     0.412        13
+    keyboard      0.800     0.333     0.471        12
+         mug      0.050     0.077     0.061        13
+       phone      0.000     0.000     0.000        13
+
+    accuracy                          0.254        63
+   macro avg      0.284     0.256     0.244        63
+weighted avg      0.276     0.254     0.240        63
+----------------------------------------
+
+Model: SVM, k=1000, Split: 0.5/0.5
+              precision    recall  f1-score   support
+
+        book      0.300     0.500     0.375        12
+      bottle      0.273     0.462     0.343        13
+    keyboard      1.000     0.750     0.857        12
+         mug      0.500     0.308     0.381        13
+       phone      0.500     0.154     0.235        13
+
+    accuracy                          0.429        63
+   macro avg      0.515     0.435     0.438        63
+weighted avg      0.510     0.429     0.433        63
+----------------------------------------
